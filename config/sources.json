@@ -1,0 +1,89 @@
+{
+  "说明": "源注册表。role=base 是单仓聚合的主干（决定 spider 内核），supplement 只贡献无需 jar 的 api 站点，meta 是现成的多仓（单独导入）。enabled=false 构建时跳过。",
+  "sources": [
+    {
+      "id": "wangerxiao",
+      "name": "🎬 综合·王二小",
+      "role": "base",
+      "tags": ["电影", "电视剧", "综艺", "动漫", "短剧"],
+      "urls": ["https://9280.kstore.vip/newwex.json", "https://d.kstore.dev/download/9280/wex.json"],
+      "note": "100 站；短剧×4、动漫×4、少儿×1；自带绝对地址 jar，jar 校验通过"
+    },
+    {
+      "id": "liu673cn",
+      "name": "📺 综合·老刘备",
+      "role": "supplement",
+      "tags": ["电影", "电视剧", "综艺", "动漫", "短剧"],
+      "urls": ["https://raw.liucn.cc/box/m.json"],
+      "note": "234 站，免 jar 的 api 站最多（14 个），解析器 27 个"
+    },
+    {
+      "id": "gao",
+      "name": "🌸 综合·高天流云",
+      "role": "supplement",
+      "tags": ["电影", "电视剧", "动漫"],
+      "urls": ["https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+               "https://cdn.jsdelivr.net/gh/gaotianliuyun/gao@master/js.json"],
+      "note": "298 站，动漫最多（14 个）；jsDelivr 上 jar 返回 403，所以主地址走 gh-proxy，相对 jar 才能解析"
+    },
+    {
+      "id": "xiaoma",
+      "name": "🎬 综合·小马",
+      "role": "supplement",
+      "tags": ["电影", "电视剧", "综艺"],
+      "urls": ["https://szyyds.cn/tv/x.json"],
+      "note": "62 站，40 个解析、10 条直播，jar 校验通过"
+    },
+    {
+      "id": "xhz",
+      "name": "🎭 综合·小盒子",
+      "role": "supplement",
+      "tags": ["电影", "电视剧", "动漫", "短剧"],
+      "urls": ["http://xhztv.top/xhz", "http://xhztv.top/4k.json"],
+      "note": "54 站，含 csp_Duanju 短剧，jar 校验通过"
+    },
+    {
+      "id": "tinghao_single",
+      "name": "🦉 综合·挺好分享",
+      "role": "supplement",
+      "tags": ["电影", "电视剧", "动漫"],
+      "urls": ["https://ztha.top/TVBox/thdjk.json"],
+      "note": "46 站，ztha.jar 校验通过"
+    },
+    {
+      "id": "tinghao",
+      "name": "🚀 挺好分享·32 仓",
+      "role": "meta",
+      "tags": ["多仓"],
+      "urls": ["http://ztha.top/TVBox/GYCK.json"],
+      "note": "本身就是 32 个子仓的多仓，单独导入即可"
+    },
+    {
+      "id": "feimao",
+      "name": "🐱 肥猫",
+      "role": "supplement",
+      "enabled": false,
+      "tags": ["电影", "电视剧"],
+      "urls": ["http://肥猫.net/tv", "https://6296.kstore.vip/facat.json"],
+      "note": "实测 404/401，先停用；域名修好后把 enabled 改回 true 即可自动进多仓"
+    },
+    {
+      "id": "fantaiying",
+      "name": "🍚 饭太硬",
+      "role": "supplement",
+      "enabled": false,
+      "tags": ["电影", "电视剧", "动漫"],
+      "urls": ["http://www.饭太硬.cc/tv", "http://www.饭太硬.net/tv"],
+      "note": "实测返回非 JSON（挑战页），先停用"
+    },
+    {
+      "id": "ouge",
+      "name": "🎵 讴歌",
+      "role": "supplement",
+      "enabled": false,
+      "tags": ["电影", "短剧"],
+      "urls": ["http://tv.nxog.top/m/"],
+      "note": "实测连接被重置，先停用"
+    }
+  ]
+}
