@@ -1,0 +1,496 @@
+{
+ "updated": "2026-11-15 00:13:21",
+ "single_stats": {
+  "base": "🎬 综合·王二小",
+  "base_sites": 100,
+  "added": [
+   [
+    "📺 综合·老刘备",
+    14
+   ],
+   [
+    "🌸 综合·高天流云",
+    0
+   ],
+   [
+    "🎬 综合·小马",
+    13
+   ],
+   [
+    "🎭 综合·小盒子",
+    0
+   ],
+   [
+    "🦉 综合·挺好分享",
+    0
+   ]
+  ],
+  "total": 127,
+  "parses": 66,
+  "lives": 2,
+  "with_spider": 100
+ },
+ "lite_sites": 27,
+ "sources": [
+  {
+   "id": "wangerxiao",
+   "name": "🎬 综合·王二小",
+   "role": "base",
+   "tags": [
+    "电影",
+    "电视剧",
+    "综艺",
+    "动漫",
+    "短剧"
+   ],
+   "tried": [
+    {
+     "url": "https://9280.kstore.vip/newwex.json",
+     "ok": true,
+     "err": null
+    }
+   ],
+   "ok": true,
+   "url": "https://9280.kstore.vip/newwex.json",
+   "real_url": "https://9280.kstore.vip/newwex.json",
+   "spider": "http://oss4liview.moji.com/thd_file/2026/11/12/7b563c7039830e7c712e93f27fd2e102.jpg;md5;541366f5860ceb66e1c3005f5a299afe",
+   "wallpaper": "https://www.loliapi.com/acg/",
+   "flags": null,
+   "counts": {
+    "其他": 91,
+    "短剧": 4,
+    "动漫": 4,
+    "少儿": 1
+   },
+   "spiderless": 0,
+   "jar": {
+    "ok": true,
+    "url": "http://oss4liview.moji.com/thd_file/2026/11/12/7b563c7039830e7c712e93f27fd2e102.jpg",
+    "bytes": 1043146,
+    "md5_got": "541366f5860ceb66e1c3005f5a299afe",
+    "md5_want": "541366f5860ceb66e1c3005f5a299afe"
+   }
+  },
+  {
+   "id": "liu673cn",
+   "name": "📺 综合·老刘备",
+   "role": "supplement",
+   "tags": [
+    "电影",
+    "电视剧",
+    "综艺",
+    "动漫",
+    "短剧"
+   ],
+   "tried": [
+    {
+     "url": "https://raw.liucn.cc/box/m.json",
+     "ok": true,
+     "err": null
+    }
+   ],
+   "ok": true,
+   "url": "https://raw.liucn.cc/box/m.json",
+   "real_url": "https://raw.liucn.cc/box/m.json",
+   "spider": "https://raw.liucn.cc/box/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
+   "wallpaper": "https://深色壁纸.xxooo.cf/",
+   "flags": null,
+   "counts": {
+    "其他": 214,
+    "电影": 9,
+    "动漫": 5,
+    "少儿": 2,
+    "短剧": 4
+   },
+   "spiderless": 15,
+   "jar": {
+    "ok": true,
+    "url": "https://raw.liucn.cc/box/fty.jar",
+    "bytes": 685819,
+    "md5_got": "3d161697458ecbcd2651a749db761ba1",
+    "md5_want": "3d161697458ecbcd2651a749db761ba1"
+   }
+  },
+  {
+   "id": "gao",
+   "name": "🌸 综合·高天流云",
+   "role": "supplement",
+   "tags": [
+    "电影",
+    "电视剧",
+    "动漫"
+   ],
+   "tried": [
+    {
+     "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+     "ok": true,
+     "err": null
+    }
+   ],
+   "ok": true,
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+   "real_url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+   "spider": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9",
+   "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
+   "flags": [
+    "youku",
+    "优酷",
+    "优 酷",
+    "优酷视频",
+    "qq",
+    "腾讯",
+    "腾 讯",
+    "腾讯视频",
+    "iqiyi",
+    "qiyi",
+    "奇艺",
+    "爱奇艺",
+    "爱 奇 艺",
+    "m1905",
+    "xigua",
+    "letv",
+    "leshi",
+    "乐视",
+    "乐 视",
+    "sohu",
+    "搜狐",
+    "搜 狐",
+    "搜狐视频",
+    "tudou",
+    "mgtv",
+    "芒果",
+    "imgo",
+    "芒果TV",
+    "芒 果 T V",
+    "bilibili",
+    "哔 哩",
+    "哔 哩 哔 哩",
+    "SPA",
+    "YuMi-vip",
+    "pptv",
+    "PPTV",
+    "ltnb",
+    "rx",
+    "SLYS4k",
+    "tucheng",
+    "BYGA",
+    "luanzi",
+    "dxzy",
+    "QEYSS",
+    "aliyun",
+    "AliS",
+    "122",
+    "chuangying",
+    "CL4K",
+    "xfyun",
+    "wuduzy",
+    "wasu",
+    "renrenmi",
+    "ppayun",
+    "haiwaikan",
+    "cool",
+    "dbm3u8",
+    "xmm",
+    "funshion",
+    "ruyi1080",
+    "ruyib1080"
+   ],
+   "counts": {
+    "其他": 270,
+    "电影": 11,
+    "少儿": 3,
+    "动漫": 14
+   },
+   "spiderless": 0,
+   "jar": {
+    "ok": true,
+    "url": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/pg.jar",
+    "bytes": 2684075,
+    "md5_got": "dffec63fb83a2b31b8606bd4bf6bead9",
+    "md5_want": "dffec63fb83a2b31b8606bd4bf6bead9"
+   }
+  },
+  {
+   "id": "xiaoma",
+   "name": "🎬 综合·小马",
+   "role": "supplement",
+   "tags": [
+    "电影",
+    "电视剧",
+    "综艺"
+   ],
+   "tried": [
+    {
+     "url": "https://szyyds.cn/tv/x.json",
+     "ok": true,
+     "err": null
+    }
+   ],
+   "ok": true,
+   "url": "https://szyyds.cn/tv/x.json",
+   "real_url": "https://szyyds.cn/tv/x.json",
+   "spider": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c",
+   "wallpaper": "https://szyyds.cn/api.php",
+   "flags": [
+    "youku",
+    "优酷",
+    "优 酷",
+    "优酷视频",
+    "qq",
+    "腾讯",
+    "腾 讯",
+    "腾讯视频",
+    "iqiyi",
+    "qiyi",
+    "奇艺",
+    "爱奇艺",
+    "爱 奇 艺",
+    "m1905",
+    "xigua",
+    "letv",
+    "leshi",
+    "乐视",
+    "乐 视",
+    "sohu",
+    "搜狐",
+    "搜 狐",
+    "搜狐视频",
+    "tudou",
+    "mgtv",
+    "芒果",
+    "imgo",
+    "芒果TV",
+    "芒 果 T V",
+    "bilibili",
+    "哔 哩",
+    "哔 哩 哔 哩",
+    "SPA",
+    "YuMi-vip",
+    "pptv",
+    "PPTV",
+    "ltnb",
+    "rx",
+    "SLYS4k",
+    "tucheng",
+    "BYGA",
+    "luanzi",
+    "dxzy",
+    "QEYSS",
+    "aliyun",
+    "AliS",
+    "122",
+    "chuangying",
+    "CL4K",
+    "xfyun",
+    "wuduzy",
+    "wasu",
+    "renrenmi",
+    "ppayun",
+    "haiwaikan",
+    "cool",
+    "dbm3u8",
+    "xmm",
+    "funshion",
+    "ruyi1080",
+    "ruyib1080"
+   ],
+   "counts": {
+    "其他": 57,
+    "电影": 2,
+    "少儿": 1,
+    "动漫": 2
+   },
+   "spiderless": 16,
+   "jar": {
+    "ok": true,
+    "url": "https://szyyds.cn/tv/x.jpg",
+    "bytes": 972016,
+    "md5_got": "4ce29ce27eeff6a73a230dd92d98ba0c",
+    "md5_want": "4ce29ce27eeff6a73a230dd92d98ba0c"
+   }
+  },
+  {
+   "id": "xhz",
+   "name": "🎭 综合·小盒子",
+   "role": "supplement",
+   "tags": [
+    "电影",
+    "电视剧",
+    "动漫",
+    "短剧"
+   ],
+   "tried": [
+    {
+     "url": "http://xhztv.top/xhz",
+     "ok": true,
+     "err": null
+    }
+   ],
+   "ok": true,
+   "url": "http://xhztv.top/xhz",
+   "real_url": "http://xhztv.top/xhz/",
+   "spider": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41",
+   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
+   "flags": [
+    "youku",
+    "qq",
+    "QQ",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "tudou",
+    "pptv",
+    "PPTV",
+    "mgtv",
+    "ltnb",
+    "rx",
+    "SLYS4k",
+    "BYGA",
+    "BYGB",
+    "luanzi",
+    "dxzy",
+    "QEYSS",
+    "aliyun",
+    "AliS",
+    "122",
+    "chuangying",
+    "CL4K",
+    "xfyun",
+    "wuduzy",
+    "wasu",
+    "bilibili",
+    "renrenmi",
+    "xmm",
+    "xigua",
+    "m1905",
+    "funshion",
+    "优酷",
+    "芒果",
+    "腾讯",
+    "爱奇艺",
+    "奇艺",
+    "哔哩哔哩",
+    "哔哩",
+    "西瓜视频",
+    "腾讯视频",
+    "奇艺视频",
+    "优酷视频",
+    "芒果视频",
+    "乐视视频",
+    "FY",
+    "fy",
+    "FeiYun",
+    "feiyun",
+    "飞云"
+   ],
+   "counts": {
+    "其他": 49,
+    "动漫": 3,
+    "短剧": 1,
+    "少儿": 1
+   },
+   "spiderless": 0,
+   "jar": {
+    "ok": true,
+    "url": "http://xhztv.top/xhz/Yoursmile.jar",
+    "bytes": 909588,
+    "md5_got": "69dadb9a99a618ea9e2f4e2b92968e41",
+    "md5_want": "69dadb9a99a618ea9e2f4e2b92968e41"
+   }
+  },
+  {
+   "id": "tinghao_single",
+   "name": "🦉 综合·挺好分享",
+   "role": "supplement",
+   "tags": [
+    "电影",
+    "电视剧",
+    "动漫"
+   ],
+   "tried": [
+    {
+     "url": "https://ztha.top/TVBox/thdjk.json",
+     "ok": true,
+     "err": null
+    }
+   ],
+   "ok": true,
+   "url": "https://ztha.top/TVBox/thdjk.json",
+   "real_url": "https://ztha.top/TVBox/thdjk.json",
+   "spider": "https://ztha.top/TVBox/ztha.jar;md5;097bfd1388b83204958633f23eb6e4cb",
+   "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
+   "flags": null,
+   "counts": {
+    "其他": 42,
+    "动漫": 3,
+    "少儿": 1
+   },
+   "spiderless": 0,
+   "jar": {
+    "ok": true,
+    "url": "https://ztha.top/TVBox/ztha.jar",
+    "bytes": 1077806,
+    "md5_got": "097bfd1388b83204958633f23eb6e4cb",
+    "md5_want": "097bfd1388b83204958633f23eb6e4cb"
+   }
+  },
+  {
+   "id": "tinghao",
+   "name": "🚀 挺好分享·32 仓",
+   "role": "meta",
+   "tags": [
+    "多仓"
+   ],
+   "tried": [
+    {
+     "url": "http://ztha.top/TVBox/GYCK.json",
+     "ok": true,
+     "err": null
+    }
+   ],
+   "ok": true,
+   "kind": "multi",
+   "url": "http://ztha.top/TVBox/GYCK.json",
+   "real_url": "https://ztha.top/TVBox/GYCK.json",
+   "sub_names": [
+    "📛挺好分享",
+    "🍳挺好丨讴歌线路",
+    "🐯小虎斑线路",
+    "🚀One线路",
+    "🚀南风线路",
+    "🚀刘伟线路",
+    "🚀剪影线路",
+    "🚀讴歌线路",
+    "🚀小虎斑线",
+    "🚀小米线路",
+    "🚀王二小线",
+    "🚀潇洒专线",
+    "🚀摸鱼线路",
+    "🚀环宇轩线",
+    "🚀小苹果线",
+    "🚀驸马线路",
+    "🚀拾光线路",
+    "🚀宝盒线路",
+    "🚀小马线路",
+    "🚀俊佬在线",
+    "🚀分享者线",
+    "🚀老刘线路",
+    "🚀传说线路",
+    "🚀蓝天线路",
+    "🚀高天流云",
+    "🚀俊佬线路",
+    "🚀毒盒线路",
+    "📛公众号丨挺好分享",
+    "🌠公众号丨挺好专享",
+    "🚀青龙影线",
+    "🍨饭硬专线",
+    "🚀短剧大全"
+   ],
+   "jar": {
+    "ok": true,
+    "note": "多仓，无 jar"
+   }
+  }
+ ]
+}
